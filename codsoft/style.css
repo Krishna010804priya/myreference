@@ -1,0 +1,20 @@
+.logo{
+    font-size: 25px;
+    color: #031540;
+    text-decoration: none;
+    font_weight: 700;
+}
+
+.navbar a {
+    font-size: 18px;
+    color: #fff;
+    text-decoration: none;
+    font-weight: 500;
+    margin-left: 35px;
+    transition: .3s;
+}
+
+.navbar a:hover,
+.navbar a.active {
+    color: #00abf0;
+}
