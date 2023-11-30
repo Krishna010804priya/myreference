@@ -3,31 +3,49 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>article with 3 columns</title>
-    <link rel="stylesheet" href="style2.css">
+    <title>Weather app</title>
+    <link rel="stylesheet" href="style.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
 </head>
 <body>
-    <div class="wrapper">
-        <header>
-            <h1>article with 3 columns</h1>
-        </header>
+    <div class="container">
+        <div class="search-box">
+            <i class='bx bxs-map'></i>
+            <input type="text" placeholder="enter your location">
+            <button class="bx bx-search"></button>
+        </div>
 
-        <section class="columns">
-            <div class="column">
-                <h2>1st content area</h2>
-                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eaque culpa maiores voluptatum sequi quaerat </p><hr>
-                <img src="https://hips.hearstapps.com/hmg-prod/images/close-up-of-blossoming-rose-flower-royalty-free-image-1580853844.jpg" alt="" width="200"> 
-                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat ut temporibus quisquam odio saepe aperiam, debitis consequatur reprehenderit ipsa nesciunt?</p><hr> 
+        <div class="weather-box">
+            <div class="box">
+                <div class="info-weather">
+                    <div class="weather">
+                        <img src="https://www.creativefabrica.com/wp-content/uploads/2021/03/31/weather-icon-illustration03-Graphics-10205167-3-580x375.png" alt="">
+                        <p class="temperature">16 <span>°C</span></p>
+                        <p class="description">Broken Clouds</p>
+                    </div>
+                </div>
             </div>
-            <div class="column">
-                <h2>2nd content area</h2>
-                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eaque culpa maiores voluptatum sequi quaerat, quia placeat temporibus, et id doloribus veritatis veniam autem, earum fuga at ullam iure deleniti harum.</p>
+        </div>
+        <div class="weather-details">
+            <div class="humidity">
+                <i class='bx bx-water' ></i>
+                <div class="text">
+                    <div class="info-humidity">
+                        <span>0%</span>
+                    </div>
+                    <p>Humidity</p>
+                </div>
             </div>
-            <div class="column">
-                <h2>3rd content area</h2>
-                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eaque culpa maiores voluptatum sequi quaerat, quia placeat temporibus, et id doloribus veritatis veniam autem, earum fuga at ullam iure deleniti harum.</p>
+            <div class="wind">
+                <i class='bx bx-wind'></i>
+                <div class="text">
+                    <div class="info-wind">
+                        <span>0km/h</span>
+                    </div>
+                    <p>Wind Speed</p>
+                </div>
             </div>
-        </section>
+        </div>
     </div>
     
 </body>
